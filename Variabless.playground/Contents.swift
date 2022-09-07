@@ -39,5 +39,5 @@ var distance: New = 100
 print(distance)
 
 //
-let  num = 100
+let  num = 1000
     
