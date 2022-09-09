@@ -51,5 +51,36 @@ func addNumbers(var1: Int, var2: Int)
     let sum = var1 + var2
     print("sum: ",sum)
 }
-func addNumbers(var1: 2, var2: 6)
+func multiply(num1: Int, num2: Int)
+
+{
+    print(num1+num2)
+    
+}
+multiply(num1: 30, num2: 2)
+
+func newFunction(num1: Int, num2: Int) -> Int{
+    return num1*num2
+}
+print(newFunction(num1: 10,num2:10))
+var num = newFunction(num1: 9,num2: 9)
+print(num)
+
+
+//example
+
+struct person
+{
+    var name = " "
+    var age = 0
+}
+    var person = person()
+    person.age = 21
+    person.name = "Bhavadharani.s"
+    print("my name is \(person.name)and my age is \(person.age)")
+    
+    
+
+
+
 
