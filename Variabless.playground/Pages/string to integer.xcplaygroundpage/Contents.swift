@@ -1,6 +1,7 @@
 //nilcoalescing operator
 func username(for id: Int) -> String? {
-    if id == 1 {
+    if id == 1
+    {
         return "Taylor Swift"
     } else {
         return nil
