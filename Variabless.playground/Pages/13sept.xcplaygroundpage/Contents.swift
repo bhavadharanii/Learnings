@@ -1,7 +1,15 @@
-//: [Previous](@previous)
+let checkTrue: Bool = true
+print(checkTrue)
+let checkF: Bool = false
+print(checkF)
 
-import Foundation
+    //character
+var letter:Character = ”s”
+print(letter)
 
-var greeting = "Hello, playground"
+//string
+var letter1 : String = "tharani"
+print(letter1)
 
-//: [Next](@next)
+
+//
