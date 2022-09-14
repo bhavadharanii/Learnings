@@ -50,18 +50,25 @@ let newArray2 = array1.prefix(2)
 print(newArray1)
 print(newArray2)
 
-//printing double with only 2 decimal points
+printing double with only 2 decimal points
 
-//let doubleValue:Double = 3.445687328748
+let doubleValue:Double = 3.445687328748
 
-//print("The value is \(doubleValue.string(1))")
+print("The value is \(doubleValue.string(1))")
 
-//using function
+using function
 
-    //var valueDouble : Double = 345.3837537
-    //var shortValue : String = String(format : "%0.2f" ,valueDouble)
-//print(shortValue)
+    var valueDouble : Double = 345.3837537
+    var shortValue : String = String(format : "%0.2f" ,valueDouble)
+print(shortValue)
 
 let price = 50
 print("\(price) $")
 
+
+var arrays = [1,2,3,4,5]
+for numbers in [...2]        
+        
+{
+        print(arrays[numbers])
+}
