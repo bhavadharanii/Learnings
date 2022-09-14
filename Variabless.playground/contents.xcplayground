@@ -3,5 +3,11 @@
     <pages>
         <page name='operators'/>
         <page name='Untitled Page'/>
+        <page name='structures'/>
+        <page name='control flow'/>
+        <page name='string to integer'/>
+        <page name='13sept'/>
+        <page name='arrays'/>
+        <page name='trial'/>
     </pages>
 </playground>

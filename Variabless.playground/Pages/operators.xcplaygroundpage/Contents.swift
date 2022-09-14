@@ -1,9 +1,11 @@
-// operators
+ //operators
 
-print(5+6)
+print(15+899006)
 print(5*6)
 var a=5
 var b=856
+b+=a
+b=b+a
 print(a+b,a*b,a%b,a-b)
 print(a/b)
 var c = 5.0
@@ -23,7 +25,8 @@ print((f==e)||(e==f))
 
 // ternary operator
 print((f<e) ? "sucess":"failure")
-for numbers in 1...34
+var array = [1,2,3,4,5]
+for numbers in [1..<array.count]
 {
         print(numbers)
 }
@@ -55,11 +58,11 @@ func multiply(num1: Int, num2: Int)
 
 {
     print(num1+num2)
-    
+
 }
 multiply(num1: 30, num2: 2)
 
-func newFunction(num1: Int, num2: Int) -> Int{
+func newFunction(num1: Int, num2: Int) -> Int {
     return num1*num2
 }
 print(newFunction(num1: 10,num2:10))

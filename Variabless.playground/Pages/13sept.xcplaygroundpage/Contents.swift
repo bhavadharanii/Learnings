@@ -5,7 +5,7 @@ print(checkF)
 
     //character
 
-var letter:Character =  ”s”
+var letter :Character =  "s"
 print(letter)
 
 //string
@@ -22,5 +22,11 @@ var letter4 : String = "changes"
 print(letter4)
 
 
-
+let pi: Float = 3.14456789
+print("Float:\(pi)")
+let piOOne: Double = 3.145678
+print("Doouble:\(piOOne)")
+let amount: Int = 3000
+let amountString: String = String(amount)
+print("amountString:    \(amountString)")
 //
