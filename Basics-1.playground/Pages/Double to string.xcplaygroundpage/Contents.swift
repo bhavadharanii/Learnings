@@ -14,6 +14,10 @@ if let stringFronmNumber = numberFormatter.string(from:number){
 
 var value : Double = 564.466323456
 var roundOff = String(format: "%.2f" , value)
-print(roundOff)
+print("roundOff value is \(roundOff)")
 
+//int to string conversion
+let myInt: Int = 10
+var myString = String(myInt)
+print(myString)
 
