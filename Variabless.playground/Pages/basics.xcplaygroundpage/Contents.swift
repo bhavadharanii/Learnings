@@ -1,7 +1,14 @@
-//: [Previous](@previous)
+//printing the input and output
 
-import Foundation
+print("Enter the favourite value")
+let name =  readLine()
+print("The favourite value is \(name)")
 
-var greeting = "Hello, playground"
+//separator
+print("New Year", 2022,"good morning!" , separator: " .")
 
-//: [Next](@next)
+//terminator
+
+print("Good Morning!" , terminator: " ")
+print("Its rainy today")
+

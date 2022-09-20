@@ -1,7 +1,12 @@
-//: [Previous](@previous)
+var i = 2
 
-import Foundation
-
-var greeting = "Hello, playground"
-
-//: [Next](@next)
+while(i <= 10)
+{
+    guard i % 2 == 0 else
+    {
+        i = i + 1
+        continue
+    }
+    print("The value is : \(i)")
+    i = i + 1
+    }

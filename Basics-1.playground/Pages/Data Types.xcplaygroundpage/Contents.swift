@@ -7,6 +7,12 @@ print(MemoryLayout<String>.size)
 print(MemoryLayout<Bool>.size)
 
 
-//
+//Data types
 var intVar: Int = 9
+var float: Float = 23.45
+var string: String = "Apple"
+var character: Character = "R"
+var double: Double = 23.45678
+ print("\(intVar),\(float),\(string),\(character),\(double)")
+
 

@@ -72,17 +72,17 @@ print(num)
 
 //example
 
-struct person
-{
-    var name = " "
-    var age = 0
-}
-    var person = person()
-    person.age = 21
-    person.name = "Bhavadharani.s"
-    print("my name is \(person.name)and my age is \(person.age)")
-    
-    
+//struct person
+//{
+//    var name = " "
+//    var age = 0
+//}
+//    var person = person()
+//    person.age = 21
+//    person.name = "Bhavadharani.s"
+//    print("my name is \(person.name)and my age is \(person.age)")
+//
+//
 
 
 

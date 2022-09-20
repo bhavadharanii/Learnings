@@ -11,7 +11,7 @@ print(MemoryLayout<Double>.size)
 
 let num = 16.1699999999999999
 let numberFormatter = NumberFormatter()
-numberFormatter.numberStyle = .decimal
+numberFormatter.numberStyle = .ordinal
 numberFormatter.usesSignificantDigits = false
 // Rounding down drops the extra digits without rounding.
 numberFormatter.roundingMode = .halfDown

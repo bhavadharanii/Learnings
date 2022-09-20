@@ -6,6 +6,8 @@ letter1 = "Updated"
 let letter2 : String = "functioning"
 print(letter2)
 
+//comparing if two arrays are equal
+
 let letter3 : [String]  = ["string","string2"]
 var new = letter3[1]
 print("The first element in array is :\(new)")
@@ -17,6 +19,7 @@ if(letter4 == letter5)
 {
 print("They are equal")
 }
-else{
-    print("They are not equal")
+else
+{
+print("They are not equal")
 }

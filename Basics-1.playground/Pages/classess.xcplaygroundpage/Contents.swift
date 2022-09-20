@@ -5,7 +5,7 @@
 //    var studentMark : Int
 //
 //    init(studentName : String , studentId : Int ,studentMark : Int)
-//    {
+  //  {
 //        self.studentName = studentName
 //        self.studentId = studentId
 //        self.studentMark = studentMark
@@ -27,7 +27,7 @@
 //print("Details original memory \(Unmanaged.passUnretained(studentDetaiils).toOpaque())")
 //
 
-import Darwin
+//import Darwin
 ////FUNCTIONINGOVERRIDING
 ////superclass
 //class cricket {
@@ -101,7 +101,7 @@ class newStruct
     self.city = city
 }
 }
-
+//guard let for removing optional
 func checkForNonNil(value: newStruct) {
     guard let course1 = value.course else {
         print("Value doesn't esists")
@@ -116,6 +116,7 @@ let newCity = newStruct(myName : "Bhavadharani" , myAge : 21, city : "coimbatore
 //print("\(newCity.myAge)")
 checkForNonNil(value: newCity1)
 
+//if let for removing optional 
 if
     let newVariable = newCity.course
 {
@@ -131,6 +132,7 @@ print("Nil")
 
 
 print("\(newCity.city)")
+//not needed
 //if let course1 = newCity1.course else
 //{
 //    print("Nil")
@@ -140,39 +142,39 @@ print("\(newCity.city)")
 //}
 
     
-//print("\(newCity.city)")
-//
-//
-//let newCity2 = newCity
-//
-//
-//newCity2.city = "madurai"
-//
-//print("\(newCity.myAge)")
-//       print("\(newCity2.city)")
-//
-//struct NewStruct1{
-//    let myName = "Bhavadharani"
-//    let myAge = 21
-//    let course = "computer"
-//    var city = " chennai"
-//}
-//struct NewStruct2
-//
-//{
-//    let myName = "darani"
-//    let myAge = 20
-//    let course = "maths"
-//    var city = "coimbatore"
-//}
-//
-//
-//var access2 = NewStruct1()
-//var access3 = access2
-//var access1 = NewStruct2()
-//var access4 = access3
-//
-//access2.city = "erode"
-//access1.city = "trichy"
-//print(access3.city)
-//print(access4.city)
+print("\(newCity.city)")
+
+
+let newCity2 = newCity
+
+
+newCity2.city = "madurai"
+
+print("\(newCity.myAge)")
+       print("\(newCity2.city)")
+
+struct NewStruct1{
+    let myName = "Bhavadharani"
+    let myAge = 21
+    let course = "computer"
+    var city = " chennai"
+}
+struct NewStruct2
+
+{
+    let myName = "darani"
+    let myAge = 20
+    let course = "maths"
+    var city = "coimbatore"
+}
+
+
+var access2 = NewStruct1()
+var access3 = access2
+var access1 = NewStruct2()
+var access4 = access3
+
+access2.city = "erode"
+access1.city = "trichy"
+print(access3.city)
+print(access4.city)
