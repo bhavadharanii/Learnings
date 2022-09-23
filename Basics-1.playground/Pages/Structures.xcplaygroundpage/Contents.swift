@@ -1,7 +1,7 @@
 struct EmployeeDetails
 {
     //properties
-
+    
     var employeeName : String = " Bhavadharani"
     var employeeId : Int = 234
     var employeeSalery : Float = 234.45
@@ -33,12 +33,12 @@ print("The contact number is : ", extraDetails1.employeecontact)
 struct MySalery
 {
     var salery = 50000
-
+    
     func increament()
-        {
-            let mySalery1 = 2*salery
-            print("My salery amount is : \(mySalery1)")
-        }
+    {
+        let mySalery1 = 2*salery
+        print("My salery amount is : \(mySalery1)")
+    }
 }
 //creating the instance of the structure
 var newInstance = MySalery()
