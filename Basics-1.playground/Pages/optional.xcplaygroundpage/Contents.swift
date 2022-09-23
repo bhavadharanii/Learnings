@@ -27,10 +27,10 @@ print("my name is: \(class1.myName),my age is an optional value: \(class1.age)")
 if
     let lastName1 = class1.lastName
 {
-
+    
     print("The last name is :\(lastName1)")
 }
- else
+else
 {
     print("Nil")
 }

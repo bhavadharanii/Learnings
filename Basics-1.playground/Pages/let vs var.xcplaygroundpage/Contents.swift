@@ -14,12 +14,12 @@ print("The first element in array is :\(new)")
 
 let letter4 : [String]  = ["string","string1"]
 let letter5 : [String]  = ["string2","string3"]
- 
+
 if(letter4 == letter5)
 {
-print("They are equal")
+    print("They are equal")
 }
 else
 {
-print("They are not equal")
+    print("They are not equal")
 }

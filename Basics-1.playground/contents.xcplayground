@@ -11,5 +11,6 @@
         <page name='arrays'/>
         <page name='dictionaries'/>
         <page name='sets'/>
+        <page name='map,flatmap,comap'/>
     </pages>
 </playground>

@@ -9,11 +9,11 @@ numberFormatter.minimumFractionDigits = 2
 numberFormatter.maximumFractionDigits = 2
 let number = NSNumber(value:num)
 if let stringFronmNumber = numberFormatter.string(from:number){
-  print(stringFronmNumber)
+    print(stringFronmNumber)
 }
 
 
- // anoother method
+// anoother method
 var value : Double = 564.466323456
 var roundOff = String(format: "%.2f" , value)
 print("roundOff value is \(roundOff)")

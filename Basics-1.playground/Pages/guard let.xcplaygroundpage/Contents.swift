@@ -9,4 +9,4 @@ while(i <= 10)
     }
     print("The value is : \(i)")
     i = i + 1
-    }
+}
