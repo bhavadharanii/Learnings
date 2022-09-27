@@ -12,5 +12,6 @@
         <page name='dictionaries'/>
         <page name='sets'/>
         <page name='map,flatmap,comap'/>
+        <page name='closure'/>
     </pages>
 </playground>

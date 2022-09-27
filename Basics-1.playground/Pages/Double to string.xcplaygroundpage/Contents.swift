@@ -13,7 +13,7 @@ if let stringFronmNumber = numberFormatter.string(from:number){
 }
 
 
-// anoother method
+// another method
 var value : Double = 564.466323456
 var roundOff = String(format: "%.2f" , value)
 print("roundOff value is \(roundOff)")
